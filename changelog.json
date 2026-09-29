@@ -1,0 +1,98 @@
+[
+  {
+    "version": "1.28.2",
+    "date": "2026-09-29",
+    "title": "Großes Feature-Release: Reifenlager, WhatsApp-Versand, Fernsteuerung (Beta) & Live-Updates",
+    "summary": "Umfangreiches Upgrade von v1.23.14 auf v1.28.2 mit komplettem Reifenlager-Modul, mobilem WhatsApp-Auftragsversand, sicherem WireGuard Home-Office Zugriff in der Testphase, optimierter Update-Verwaltung und zahlreichen Stabilitätsverbesserungen.",
+    "features": [
+      {
+        "title": "🛞 Neues Modul: Reifenlager & Räder-Hotel",
+        "description": "Vollwertige Verwaltung von Kunden-Radsätzen mit flexibler Lagerplatz-Vergabe (z. B. Regal A-12), Status-Ampel (Eingelagert, Montiert, Ausgelagert), Einlagerungsprotokoll und druckfertigen Rad-Etiketten / Reifenaufklebern."
+      },
+      {
+        "title": "📏 Gesetzliche Profiltiefen-Bewertung nach Saison",
+        "description": "Automatische Auswertung aller 4 Räder anhand der gesetzlichen Mindestprofiltiefen: Sommerreifen ab 1,6 mm sowie Winter- und Allwetterreifen ab 4,0 mm (Österreich-Standard) mit dynamischer Farb-Kennzeichnung."
+      },
+      {
+        "title": "📱 Mobiler WhatsApp-Auftragsversand per Betriebssystem-Dialog",
+        "description": "Auftragsscheine können auf Smartphones direkt über die native Teilen-Funktion (Web Share API) inklusive PDF-Anhang in die WhatsApp-App versendet werden. Am Desktop öffnet sich automatisch WhatsApp Web im Standardbrowser mit Auto-Save des PDFs."
+      },
+      {
+        "title": "🔒 Fernsteuerung & WireGuard Home-Office Zugriff (Beta / Testphase)",
+        "description": "Sicherer Werkstatt-Zugriff von unterwegs oder aus dem Home-Office mit integriertem WireGuard-Server, automatischer UPnP-Router-Portfreigabe und 1-Klick Start/Stop über einen Windows-UAC-Dienst (derzeit in der Beta-Testphase)."
+      },
+      {
+        "title": "🔄 Transparente Live-Updates & tägliche 19:00-Uhr-Prüfung",
+        "description": "Echtzeit-Ladebalken mit Prozentanzeige (0-100%) beim Update-Download, tägliche automatische Update-Suche um 19:00 Uhr für durchlaufende PCs und neues Erklärungsfenster 'Was ist neu?' mit Versionshistorie."
+      },
+      {
+        "title": "📅 Eigenständiger Kanban-Status 'Termin'",
+        "description": "Termine werden als eigene Spalte und Status geführt und können mit 1 Klick in verbindliche Aufträge oder Angebote umgewandelt bzw. bei Absage reaktiviert werden."
+      }
+    ],
+    "fixes": [
+      {
+        "title": "Keine verfrühte 'Auf neuestem Stand'-Meldung",
+        "description": "Die manuelle Update-Prüfung zeigt den aktiven Such- und Downloadstatus präzise an, ohne vorzeitig 'Auf neuestem Stand' zu melden."
+      },
+      {
+        "title": "Strikter Faktura-Konfliktschutz bei Namensvettern",
+        "description": "Kunden mit gleichem Namen, aber unterschiedlichen Kundennummern werden bei der Synchronisation mit KFZ-Faktura strikt getrennt gehalten."
+      },
+      {
+        "title": "Papierkorb: Getrenntes Leeren der Reiter",
+        "description": "Der 'Papierkorb leeren'-Button leert ausschließlich den aktuell geöffneten Reiter (Manuell Gelöscht vs. Archivierte Historie), wodurch historische Kundendaten geschützt bleiben."
+      },
+      {
+        "title": "Lagerreservierungs-Schutz beim Eintippen",
+        "description": "Teile werden nur noch dann im Lager reserviert, wenn ein passender Vorschlag aktiv per Klick ausgewählt wird, nicht mehr beim bloßen Tippen von Suchbegriffen."
+      },
+      {
+        "title": "1-Klick Status-Korrektur im Reifenlager",
+        "description": "Radsätze mit Status 'Montiert' oder 'Ausgelagert' können per Schnellaktion zuverlässig wieder eingelagert werden; das Bearbeiten-Modal zeigt stets den echten Status vorausgewählt."
+      }
+    ],
+    "improvements": [
+      {
+        "title": "Standardisierte Kennzeichen-Formatierung (W-TEST99)",
+        "description": "Automatische Vereinheitlichung und fehlertolerante Suche bei österreichischen und internationalen Kennzeichen über alle Masken hinweg."
+      },
+      {
+        "title": "Echtzeit-Synchronisation via SSE für Updates",
+        "description": "Status- und Downloadänderungen werden sofort ohne manuelles Neuladen an alle geöffneten Arbeitsplätze und Mobilgeräte übertragen."
+      },
+      {
+        "title": "Navbar-Live-Indikatoren",
+        "description": "Dezentes 'Update lädt (X%)' während des Herunterladens und 'Update bereit' nach Fertigstellung in Desktop- und Mobil-Navbar."
+      }
+    ]
+  },
+  {
+    "version": "1.23.14",
+    "date": "2026-09-20",
+    "title": "PWA-App-Shell, dynamischer QR-Code & mobile Android-Unterstützung",
+    "summary": "Einführung des Progressive-Web-App (PWA) Standalone-Modus, dynamischer QR-Code zur schnellen Smartphone-Kopplung und automatische IP-Wiederverbindung bei DHCP-Wechsel.",
+    "features": [
+      {
+        "title": "Progressive Web App (PWA) & Smartphone-Standalone-Modus",
+        "description": "Installation der Werkstatt-App als eigenständige Vollbild-App auf Smartphones und Tablets ohne störende Browser-Adressleiste."
+      },
+      {
+        "title": "Dynamischer QR-Code zur Smartphone-Kopplung",
+        "description": "Schnelle Verbindung von Mobilgeräten über automatische IP-Erkennung und QR-Code-Scan in den PC-Einstellungen."
+      }
+    ],
+    "fixes": [
+      {
+        "title": "Stabile Verbindung bei DHCP-IP-Wechsel",
+        "description": "Automatischer Reconnect und geführter Wiederverbindungs-Dialog, falls sich die IP-Adresse des Werkstatt-Servers ändert."
+      }
+    ],
+    "improvements": [
+      {
+        "title": "Mobile Drawer & Responsive Sidebar",
+        "description": "Optimierte Navigation und Bedienbarkeit für kleine Smartphone-Displays mit Hamburger-Menü."
+      }
+    ]
+  }
+]
