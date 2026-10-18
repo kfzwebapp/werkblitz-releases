@@ -1,5 +1,77 @@
 [
   {
+    "version": "1.30.4",
+    "date": "2026-10-18",
+    "title": "Neues Auftragsfenster, Schein-Erkennung im Hintergrund & schnelleres Speichern",
+    "summary": "Seit Version 1.28.2 wurde die Arbeit mit Aufträgen grundlegend überarbeitet: ein übersichtliches, zweispaltiges Auftragsfenster, Zulassungsschein-Erkennung im Hintergrund, spürbar schnelleres Speichern und eine automatische Verbindung für Handy und Tablet. Dazu kommen zahlreiche Fehlerbehebungen, unter anderem beim Drucken und beim Google-Kalender.",
+    "features": [
+      {
+        "title": "🗂️ Neues Auftragsfenster in zwei Spalten",
+        "description": "„Neuer Auftrag\" und Auftragsdetail sind jetzt gleich aufgebaut: links Fahrzeug & Kunde, Zulassungsschein und Anhänge, rechts Status, Termin, Aufgaben, Teile und Notizen. Der Hauptknopf sitzt immer fest unten im Fenster."
+      },
+      {
+        "title": "📄 Zulassungsschein-Erkennung im Hintergrund",
+        "description": "Die erkannten Daten landen direkt in den Feldern (violett = vom Scan, gelb = bitte prüfen) und werden mit „Daten stimmen\" bestätigt. Felder sind in der Reihenfolge des Zulassungsscheins angeordnet. Flachbett-Scans brauchen keinen Zuschnitt mehr."
+      },
+      {
+        "title": "👥 Kein versehentliches Verknüpfen mit Bestandskunden",
+        "description": "Erkennt Werkblitz beim Scan einen vorhandenen Kunden, erscheint „Kunde existiert bereits\" mit einer Vergleichsansicht. Verknüpft wird nur noch, wenn Sie es bestätigen. Vom Scan überschriebene Werte lassen sich je Feld mit „vorher: … (zurückholen)\" wiederherstellen."
+      },
+      {
+        "title": "📱 Handy & Tablet verbinden sich automatisch",
+        "description": "Werkblitz ist im Werkstatt-Netz unter http://werkblitz.local erreichbar. Vergibt der Router dem PC eine neue Adresse, findet die Handy-App den PC von selbst wieder – ein erneutes Einscannen des QR-Codes ist nicht mehr nötig."
+      },
+      {
+        "title": "🧩 Aufgaben & Teile überall gleich erfassen",
+        "description": "Im neuen Auftrag werden Aufgaben und Teile genauso angelegt und bearbeitet wie im Auftragsdetail. Die Teile-Tabelle hat feste Spalten mit Einzel- und Gesamtpreis, der Teile-Status erscheint platzsparend als Symbol (📌 Reserviert, 📤 Entnommen, 🕒 Arbeitszeit)."
+      },
+      {
+        "title": "📝 Notizen direkt beschreibbar",
+        "description": "Ins Notizfeld im Auftragsdetail kann sofort getippt werden, ohne „Bearbeiten\"-Klick. „Notiz Speichern\" wird erst bei einer Änderung farbig, und beim Schließen mit ungespeicherter Notiz fragt Werkblitz nach."
+      },
+      {
+        "title": "📎 Dateien gezielt ablegen",
+        "description": "Zulassungsschein und Anhänge haben eigene Ablagefelder, Anhänge nehmen mehrere Dateien auf einmal an. Der Zulassungsschein wird als großes Vorschaubild angezeigt (Klick = Vollbild)."
+      }
+    ],
+    "fixes": [
+      {
+        "title": "Reifenlager: keine leere Druckseite mehr",
+        "description": "Einlagerungsschein und Lager-Etikett werden wieder vollständig gedruckt."
+      },
+      {
+        "title": "Urlaubscenter: Drucken in der Desktop-App",
+        "description": "Urlaubsplan, Journal, Übertrag und Notfall-Code lassen sich in der Desktop-App wieder drucken. Das Druckfenster schließt sich danach von selbst."
+      },
+      {
+        "title": "Google-Kalender: Termine springen nicht mehr auf „jetzt\"",
+        "description": "Bei einer falsch gehenden PC-Uhr konnte ein gewählter Termin beim Abgleich auf die aktuelle Uhrzeit zurückgesetzt werden. Der Abgleich vergleicht jetzt nur noch tatsächliche Verschiebungen in Google."
+      },
+      {
+        "title": "Kein Ruckeln mehr im Radsatz-Fenster",
+        "description": "Beim Anlegen und Bearbeiten eines Radsatzes scrollt die Seite dahinter nicht mehr mit, das Fenster läuft dadurch flüssig."
+      },
+      {
+        "title": "Dateien öffnen sich nicht mehr ungewollt",
+        "description": "Eine Datei, die neben ein Ablagefeld gezogen wird, öffnet nicht mehr versehentlich die Datei anstelle von Werkblitz."
+      }
+    ],
+    "improvements": [
+      {
+        "title": "⚡ Deutlich schnelleres Speichern",
+        "description": "Werkblitz speichert nur noch, was sich tatsächlich geändert hat. Bei großen Datenbeständen ist jeder Klick spürbar schneller (bei 5.000 Aufträgen rund 0,1 statt 1,2 Sekunden)."
+      },
+      {
+        "title": "🛞 Reifenlager-Ausdrucke im Werkstatt-Briefkopf",
+        "description": "Der Einlagerungsschein sieht jetzt aus wie der Auftragsschein: mit Logo, Kundenanschrift, Profiltiefen-Tabelle und Unterschriftsfeldern. Das Lager-Etikett wurde im selben Stil überarbeitet."
+      },
+      {
+        "title": "🔒 Stabilere Lizenzprüfung",
+        "description": "Die Lizenzprüfung ist besser gegen Manipulation geschützt und für künftige Änderungen beim Lizenzanbieter gerüstet, damit sie auch nach dessen Umstellungen zuverlässig weiterläuft."
+      }
+    ]
+  },
+  {
     "version": "1.28.2",
     "date": "2026-09-29",
     "title": "Großes Feature-Release: Reifenlager, WhatsApp-Versand, Fernsteuerung (Beta) & Live-Updates",
