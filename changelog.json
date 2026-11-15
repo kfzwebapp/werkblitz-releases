@@ -1,5 +1,157 @@
 [
   {
+    "version": "1.30.12",
+    "date": "2026-11-15",
+    "title": "Einheitliches Auftragsfenster und Google-Termine im Kalender",
+    "summary": "„Neuer Auftrag“ und „Auftrag bearbeiten“ sehen jetzt gleich aus, Zusatzdokumente lassen sich schon beim Anlegen per Kamera, Datei oder Scanner anhängen, und der Kalender zeigt auch Termine aus Google.",
+    "features": [
+      {
+        "title": "🧩 Ein Aussehen für beide Auftragsfenster",
+        "description": "Neuer Auftrag und Auftrag bearbeiten haben dieselben Karten, Beschriftungen und Feldgrößen. Den Status kann man schon beim Anlegen wählen."
+      },
+      {
+        "title": "📎 Anhänge per Kamera, Datei oder Scanner",
+        "description": "Zusatzdokumente gibt es jetzt auch beim Erstellen eines Auftrags – wie beim Zulassungsschein über Kamera, Ablagefeld oder Flachbett-Scanner. Word-Dateien (DOC/DOCX) werden ebenfalls angenommen."
+      },
+      {
+        "title": "📅 Termin einfacher wählen",
+        "description": "Bei „Termin: Ja“ erscheint darunter ein einziger Knopf „Termin wählen“. Das Kalender-Fenster zeigt dabei schon vergebene Termine an, auch beim Verschieben."
+      },
+      {
+        "title": "🗓️ Google-Termine im Werkstattkalender",
+        "description": "Einträge aus dem verbundenen Google-Kalender erscheinen im App-Kalender und lassen sich als Auftrag übernehmen. Der Neuladen-Knopf holt sie sofort neu."
+      }
+    ]
+  },
+  {
+    "version": "1.30.11",
+    "date": "2026-11-08",
+    "title": "Übersichtliche Kanban-Gruppen auf dem Dashboard",
+    "summary": "Die Aufträge auf dem Dashboard sind jetzt nach Status gruppiert, lassen sich einklappen und über Filterkacheln schnell eingrenzen.",
+    "features": [
+      {
+        "title": "🗂️ Gruppen nach Status",
+        "description": "Termine, Angenommen, Angebote, In Arbeit, Wartet auf Teile, Fertig, Abgesagte Termine und Abgeholt stehen jeweils in einer eigenen, einklappbaren Gruppe. Termine sind nach Datum sortiert."
+      },
+      {
+        "title": "🔢 Filterkacheln je Gruppe",
+        "description": "Oben auf dem Dashboard zeigt jede Kachel, wie viele Aufträge in einer Gruppe stehen – ein Klick filtert die Ansicht auf genau diese Gruppe."
+      },
+      {
+        "title": "❌ Abgesagte Termine räumen sich selbst auf",
+        "description": "In den Einstellungen lässt sich festlegen, wie viele Tage abgesagte Termine noch auf der Kanban sichtbar bleiben."
+      },
+      {
+        "title": "⚡ Schneller bei vielen Aufträgen",
+        "description": "Es werden zuerst 25 Karten angezeigt, weitere laden beim Scrollen automatisch nach."
+      }
+    ]
+  },
+  {
+    "version": "1.30.10",
+    "date": "2026-11-05",
+    "title": "Scheckkarten-Zulassungsschein scannen und abfragen",
+    "summary": "Werkblitz erkennt jetzt auch den Zulassungsschein im Scheckkartenformat: Name und Adresse kommen von der Karte, FIN, Marke und Modell direkt aus der Zulassungsdatenbank.",
+    "features": [
+      {
+        "title": "💳 Scheckkarte einfach hochladen oder scannen",
+        "description": "Foto oder Scan der Karte wie gewohnt hochladen – Werkblitz erkennt die Karte, liest Kennzeichen, Kartennummer, Erstzulassung, Name und Adresse und holt FIN, Marke und Modell automatisch aus der Zulassungsdatenbank. Alles wird wie beim Scan zum Vergleichen markiert."
+      },
+      {
+        "title": "⌨️ Oder nur Kennzeichen und Kartennummer eintippen",
+        "description": "Beim Zulassungsschein auf „Scheckkarte“ klicken, Kennzeichen und die neunstellige Kartennummer (rechts oben auf der Karte) eintragen – die Fahrzeugdaten werden übernommen."
+      }
+    ]
+  },
+  {
+    "version": "1.30.9",
+    "date": "2026-10-26",
+    "title": "Schneller, sparsamer und zuverlässiger im Hintergrund",
+    "summary": "Werkblitz arbeitet im Hintergrund deutlich ruhiger: Änderungen erscheinen weiterhin sofort auf allen Geräten, Kundendaten bleiben überall aktuell und die tägliche Sicherung läuft jeden Tag.",
+    "features": [
+      {
+        "title": "⚡ Weniger Last, gleiche Geschwindigkeit",
+        "description": "Geräte fragen nicht mehr alle paar Sekunden alle Daten ab, sondern laden nur, was sich geändert hat. Änderungen von einem anderen PC oder Handy erscheinen trotzdem sofort. Bricht die Verbindung kurz ab, verbindet sich Werkblitz selbst wieder und holt Verpasstes nach."
+      },
+      {
+        "title": "🚀 Bleibt auch mit vielen Aufträgen schnell",
+        "description": "Auftragsübersicht, Papierkorb, Historie und Bestellcenter werden viel schneller zusammengestellt – auch nach Jahren mit Tausenden Aufträgen im Archiv hängt nichts."
+      },
+      {
+        "title": "👤 Kundendaten überall aktuell",
+        "description": "Ändern Sie Name, Telefonnummer, Anschrift oder Fahrzeugdaten im Kundencenter (oder in KFZ-Faktura), übernehmen die offenen Aufträge dieses Kunden das automatisch – samt Ausdruck und Google-Kalender. Papierkorb und Archiv bleiben unverändert."
+      },
+      {
+        "title": "📅 Google-Kalender immer auf Stand",
+        "description": "Wird ein Teil oder eine Aufgabe gelöscht, verschwindet sie jetzt auch aus dem Kalender-Eintrag. Der Abgleich mit Google ist sparsamer und bleibt angemeldet, ohne ständig neu nachzufragen."
+      },
+      {
+        "title": "🔄 KFZ-Faktura verliert nichts mehr",
+        "description": "War KFZ-Faktura kurz nicht erreichbar, holt Werkblitz die Änderungen aus dieser Zeit jetzt beim nächsten Abgleich nach."
+      },
+      {
+        "title": "💾 Tägliche Sicherung an jedem Tag",
+        "description": "Das Tages-Backup entsteht jetzt auch, wenn der PC durchläuft. Schlägt eine Sicherung fehl, wird sie nach einer Stunde wiederholt. Beim Aufräumen alter Sicherungen werden nur noch Werkblitz-Sicherungen gelöscht, nie andere Dateien im Backup-Ordner."
+      },
+      {
+        "title": "🗂️ Kleinere Datenbank",
+        "description": "Das Datenschutz-Zugriffsprotokoll fasst automatische Abrufe zusammen und hebt Einträge ein Jahr lang auf. Die Datenbank und jede Sicherung werden dadurch erheblich kleiner – beim ersten Start wird einmalig aufgeräumt (vorher wird automatisch gesichert)."
+      }
+    ]
+  },
+  {
+    "version": "1.30.8",
+    "date": "2026-10-26",
+    "title": "Werkstattzettel per WhatsApp: Empfänger selbst wählen",
+    "summary": "Der Werkstattzettel geht per WhatsApp nicht mehr vorbelegt an den Kunden.",
+    "features": [
+      {
+        "title": "🔒 Werkstattzettel bleibt intern",
+        "description": "„Zettel per WhatsApp“ öffnet jetzt die Kontaktauswahl statt des Kunden-Chats – der Zettel mit den internen Notizen landet so nicht versehentlich beim Kunden."
+      }
+    ]
+  },
+  {
+    "version": "1.30.7",
+    "date": "2026-10-26",
+    "title": "Vorschau: Herausziehen und Zoomen verbessert",
+    "summary": "Kleine Korrekturen in der Zulassungsschein-Vorschau.",
+    "features": [
+      {
+        "title": "🖱️ Vorschau",
+        "description": "Ein frisch gescannter Zulassungsschein lässt sich jetzt auch direkt aus der Vorschau in andere Programme ziehen. Beim Zoomen mit dem Mausrad scrollt das Fenster dahinter nicht mehr mit."
+      }
+    ]
+  },
+  {
+    "version": "1.30.6",
+    "date": "2026-10-26",
+    "title": "Zulassungsschein wird genau zugeschnitten",
+    "summary": "Beim Hochladen eines Handyfotos oder Bildes findet Werkblitz den Zulassungsschein jetzt selbst und schlägt einen genauen Zuschnitt vor – auch auf farbigen Tischen und bei schräg liegenden Scheinen.",
+    "features": [
+      {
+        "title": "✂️ Zuschnitt-Vorschlag, der passt",
+        "description": "Das Zuschnitt-Fenster erkennt den Schein an seiner Form statt an der Farbe: gelbe und rosa Scheine, bunte Tische und volle Schreibtische sind kein Problem mehr. Mit „Vorschlag zurückholen“ ist der Vorschlag nach dem Verschieben eines Punktes sofort wieder da."
+      },
+      {
+        "title": "📐 Schein wird gerade gezogen",
+        "description": "Schräg fotografierte oder gefaltete Scheine werden an den Ecken gerade gezogen statt schief ausgeschnitten. Die Texterkennung liest den zugeschnittenen Schein dadurch zuverlässiger."
+      }
+    ]
+  },
+  {
+    "version": "1.30.5",
+    "date": "2026-10-26",
+    "title": "Kundenwünsche bleiben intern",
+    "summary": "Kundenwünsche und Werkstatt-Notizen erscheinen nicht mehr auf Angebot, Auftragsschein und Termin für den Kunden.",
+    "features": [
+      {
+        "title": "🔒 Notizen nur noch auf dem Werkstattzettel",
+        "description": "Der Kasten „Kundenwünsche & Werkstatt-Notizen“ wird nur noch in der Mitarbeiter-Version gedruckt. Das PDF für den Kunden enthält ihn nicht mehr – auch nicht beim Senden per WhatsApp."
+      }
+    ]
+  },
+  {
     "version": "1.30.4",
     "date": "2026-10-18",
     "title": "Neues Auftragsfenster, Schein-Erkennung im Hintergrund & schnelleres Speichern",
