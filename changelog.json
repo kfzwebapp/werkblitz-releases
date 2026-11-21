@@ -1,5 +1,63 @@
 [
   {
+    "version": "1.31.1",
+    "date": "2026-11-21",
+    "title": "Neues Aussehen, Teileshop-Knopf und Tastenkürzel",
+    "summary": "Werkblitz hat ein neues, helles Aussehen bekommen – in allen Modulen und Fenstern. Dazu kommen ein Werkblitz-Knopf für Online-Teileshops, mehrstündige Termine per Ziehen im Kalender und Tastenkürzel.",
+    "features": [
+      {
+        "title": "🎨 Neues, helles Aussehen",
+        "description": "Übersicht, alle Module und alle Fenster sind einheitlich und hell gestaltet. Alle Funktionen sind geblieben, wo sie waren."
+      },
+      {
+        "title": "📅 Ein Kalender überall",
+        "description": "Der Werkstatt-Kalender und jede Terminauswahl sind jetzt derselbe Kalender. Termine über mehrere Stunden einfach mit der Maus aufziehen – Beginn bis Ende."
+      },
+      {
+        "title": "🛒 Werkblitz-Knopf in Online-Teileshops",
+        "description": "In unterstützten Online-Teileshops steht neben jedem Produkt ein ⚡-Knopf: Ein Klick trägt das Teil mit Nummer, Menge und Preis in den gerade offenen Auftrag ein. Mit Umschalt + Klick landet es zusätzlich im Shop-Warenkorb. Arbeiten mehrere Rechner mit Werkblitz, trägt jeder in den Auftrag ein, der auf ihm gerade offen ist."
+      },
+      {
+        "title": "🧩 Browser-Erweiterung aus dem Chrome Web Store",
+        "description": "Den Knopf bringt die Erweiterung „Werkblitz Teileshop“. Sie wird aus dem Chrome Web Store installiert, für Google Chrome und Microsoft Edge. Über ihr Symbol in der Browserleiste lässt sie sich jederzeit ein- und ausschalten."
+      },
+      {
+        "title": "⌨️ Tastenkürzel",
+        "description": "A = Neuer Auftrag, G = Neues Angebot, T = Neuer Termin – änderbar unter Einstellungen → Tastenkürzel. Esc schließt das oberste Fenster."
+      },
+      {
+        "title": "💾 „Zuerst speichern?“",
+        "description": "Wer ein Fenster mit ungespeicherten Eingaben schließt, wird gefragt, ob zuerst gespeichert werden soll – statt dass die Eingaben verloren gehen."
+      },
+      {
+        "title": "🚗 Landeswappen auf dem Kennzeichen",
+        "description": "Kennzeichen zeigen das Wappen des Bundeslands, zu dem der Bezirk gehört. Mit der Maus darauf erscheinen Bezirk und Bundesland."
+      }
+    ],
+    "improvements": [
+      {
+        "title": "⚡ Flüssigeres Scrollen",
+        "description": "Der Weichzeichner hinter offenen Fenstern ist weg – dadurch ruckelt das Scrollen, z. B. in den Einstellungen, nicht mehr."
+      },
+      {
+        "title": "➕ Aufgaben per „+“",
+        "description": "In „Arbeiten & Aufgaben“ fügt der „+“-Knopf neben dem Eingabefeld eine Aufgabe hinzu – Enter geht weiterhin."
+      },
+      {
+        "title": "🔄 Ein Update-Hinweis statt zwei",
+        "description": "Ist ein Update bereit, erscheint nur noch dieses Werkblitz-Fenster mit den Neuerungen – kein zusätzliches Windows-Fenster mehr. Gilt ab dem nächsten Update."
+      },
+      {
+        "title": "💬 SMS-Dienst in Planung",
+        "description": "Unter Einstellungen → In Planung steht jetzt der SMS-Dienst statt des Reifenlagers, das es bereits als eigenes Modul gibt. Kunden sollen sich bald direkt aus Werkblitz per SMS verständigen lassen, z. B. wenn das Fahrzeug abholbereit ist."
+      },
+      {
+        "title": "🧹 Erfundene Beispielaufträge",
+        "description": "Neuinstallationen starten mit eindeutig erfundenen Beispielaufträgen."
+      }
+    ]
+  },
+  {
     "version": "1.30.12",
     "date": "2026-11-15",
     "title": "Einheitliches Auftragsfenster und Google-Termine im Kalender",
