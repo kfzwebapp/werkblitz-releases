@@ -1,9 +1,9 @@
 [
   {
-    "version": "1.31.1",
-    "date": "2026-11-21",
-    "title": "Neues Aussehen, Teileshop-Knopf und Tastenkürzel",
-    "summary": "Werkblitz hat ein neues, helles Aussehen bekommen – in allen Modulen und Fenstern. Dazu kommen ein Werkblitz-Knopf für Online-Teileshops, mehrstündige Termine per Ziehen im Kalender und Tastenkürzel.",
+    "version": "1.31.2",
+    "date": "2026-11-22",
+    "title": "Neues Aussehen, Teileshop-Knopf und mehr Sicherheit",
+    "summary": "Werkblitz hat ein neues, helles Aussehen bekommen – in allen Modulen und Fenstern. Dazu kommen ein Werkblitz-Knopf für Online-Teileshops, mehrstündige Termine per Ziehen im Kalender, Tastenkürzel und ein besserer Schutz Ihrer Daten im Werkstatt-Netz. Bitte installieren Sie das Update zeitnah.",
     "features": [
       {
         "title": "🎨 Neues, helles Aussehen",
@@ -36,6 +36,22 @@
     ],
     "improvements": [
       {
+        "title": "🔒 Besserer Schutz im Werkstatt-Netz",
+        "description": "Werkblitz schützt die Daten auf dem Werkstatt-PC besser vor Zugriffen aus dem Netzwerk. Den Speicherort der Datensicherung und den Import von Alt-Daten aus einem Ordner können Sie nur noch direkt am Werkstatt-PC ändern – Handys, Tablets und andere PCs erhalten dafür einen Hinweis."
+      },
+      {
+        "title": "🔗 Sicherere Links",
+        "description": "Links aus Werkblitz öffnen nur noch Webseiten, E-Mails, Telefonnummern und WhatsApp. Fremde Webseiten öffnen immer im gewohnten Browser, nicht im Werkblitz-Fenster."
+      },
+      {
+        "title": "🔑 Neuer Knopf für die Google-Verbindung",
+        "description": "Der Google Kalender wird in den Einstellungen jetzt über den Knopf „Weiter mit Google“ verbunden."
+      },
+      {
+        "title": "📅 Gelöschte Termine verschwinden auch aus dem Google Kalender",
+        "description": "Wird ein Termin in Werkblitz gelöscht, wird er auch im Google Kalender entfernt. Abgesagte Termine bleiben wie bisher rot markiert stehen, und ein aus dem Papierkorb wiederhergestellter Termin erscheint wieder."
+      },
+      {
         "title": "⚡ Flüssigeres Scrollen",
         "description": "Der Weichzeichner hinter offenen Fenstern ist weg – dadurch ruckelt das Scrollen, z. B. in den Einstellungen, nicht mehr."
       },
@@ -54,6 +70,20 @@
       {
         "title": "🧹 Erfundene Beispielaufträge",
         "description": "Neuinstallationen starten mit eindeutig erfundenen Beispielaufträgen."
+      }
+    ],
+    "fixes": [
+      {
+        "title": "🗑️ Gelöschte Dokumente werden wirklich entfernt",
+        "description": "Beim Löschen von Zulassungsscheinen, Anhängen und dem Firmenlogo sowie beim endgültigen Löschen von Aufträgen werden die Dateien jetzt auch von der Festplatte entfernt. Dokumente, die ein anderer Auftrag oder der Kundenstamm noch nutzt, bleiben erhalten."
+      },
+      {
+        "title": "♻️ Papierkorb zeigt alle archivierten Aufträge",
+        "description": "Ein Auftrag, der wiederhergestellt und später erneut archiviert wurde, wurde im Papierkorb mitgezählt, aber nicht angezeigt."
+      },
+      {
+        "title": "🧾 Keine doppelten Auftragsnummern",
+        "description": "Zwei gleichzeitig angelegte Aufträge bekommen sicher verschiedene interne Nummern – vorher konnte einer davon nach einem Neustart fehlen."
       }
     ]
   },
